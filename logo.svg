@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="FinClaw">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14523D"/>
+      <stop offset="1" stop-color="#0A2E22"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#5BE3A0"/>
+      <stop offset="1" stop-color="#B8F7D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="232" fill="url(#bg)"/>
+  <!-- Three claw marks of rising height, read as a growth chart -->
+  <g fill="none" stroke="url(#mark)" stroke-width="96" stroke-linecap="round">
+    <path d="M262 788 C 296 700, 330 630, 372 556"/>
+    <path d="M454 788 C 496 660, 538 544, 592 432"/>
+    <path d="M646 788 C 694 618, 744 452, 808 300"/>
+  </g>
+</svg>
